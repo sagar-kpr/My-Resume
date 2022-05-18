@@ -1,0 +1,94 @@
+header{
+			width: 100vw;
+			height: 50vh;
+			background-image: url("https://c1.wallpaperflare.com/preview/811/367/789/technology-computer-creative-design.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity:0.9;
+			background-attachment: fixed;
+			
+		}
+		
+		#home {display: inline; color:white; }
+		#about {display: inline; color:white;}
+		#skill {display: inline; color:white;}
+		#experience {display: inline; color:white;}
+		#education {display: inline; color:white;}
+		#portfolio {display: inline; color:white;}
+		#contact {display: inline; color:white;}
+
+		#home:hover{color: #8c8c8c; text-decoration: underline; }
+		#about:hover{color: #8c8c8c; text-decoration: underline; }
+		#skill:hover{color: #8c8c8c; text-decoration: underline; }
+		#experience:hover{color: #8c8c8c; text-decoration: underline; }
+		#education:hover{color: #8c8c8c; text-decoration: underline; }
+		#portfolio:hover{color: #8c8c8c; text-decoration: underline; }
+		#contact:hover{color: #8c8c8c; text-decoration: underline; } 
+
+		#list a{text-decoration: none;}
+
+		#list {
+			font-size: 25px;
+			font-family: verdana;
+			text-align: center;
+			word-spacing: 50px;
+			margin-right: 20px;
+			
+		}
+		#myname{
+			text-align: center;}
+
+		center{font-family: sans-serif;
+					padding: 50px 22px 0 5px;
+					font-size: 50px;
+					color: whitesmoke;
+		}
+
+		.links {margin-top: 2vh; text-align: center;}
+		.links #anchor {text-decoration: none; margin-right: 40px; margin-left: 10px; line-height: 2; color: white;}
+		#anchor i:hover{box-shadow: 0px 0px 16px 10px rgba(217, 217, 217, 0.9); border-radius: 50%;}
+		
+		main{width: 100%; height: auto; }
+		/*class-about*/
+		.about {width: 100%; height: auto;} 
+		.about #my-img{ width: 250px; height: 250px; text-align: center; margin: auto; position: relative; top:-130px;}
+		 #my-img img {width: inherit; height: inherit; border-radius: 50%; border:3px solid white;
+		 box-shadow: 1px 1px 10px 2px lightgrey; position: sticky; top: 1px;}
+		.about #para{ width: 65%; font-family: verdana; text-align: justify;
+		 font-size: 20px; text-transform: uppercase; margin-top: -30px; 
+		 word-spacing: 5px; letter-spacing: 3px; line-height: 1.2; height: auto;  margin: auto; margin-bottom: 70px;}	
+
+		 /*class-skills*/
+
+		 .skills {width:100%; height:auto; background-color: #f2f2f2; margin-top: 20px; display: flex; flex-wrap: wrap; flex-direction:column;}
+		 .skills h1{width: 65%; height: auto; margin:20px auto;  text-align: center;}
+		  h1 span{font-size: 45px; font-weight: 400; font-family: verdana; color: #808080;
+		  margin-right: 10px; position: relative; top: 30px; }
+		 .skills #skill-box {width: 65%; height: auto; margin:80px auto; display: flex; flex-wrap: wrap; 
+		 justify-content: space-between; flex-direction: row; gap: 120px;}
+		 #progress {width: 10rem; height: 2rem; background-color: #f2f2f2; border: 1px solid lightgrey;
+		  border-radius: 20px; box-shadow: 1px 1px 2px 2px lightgrey;}
+		 #percentage-java {width: 60%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#e60000; text-align: center;}
+		 #percentage-java span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-python {width: 78%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#4d79ff; text-align: center;}
+		 #percentage-python span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-javascript {width: 88%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#0086b3; text-align: center;}
+		 #percentage-javascript span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-c {width: 50%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#669900; text-align: center;}
+		 #percentage-c span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-react {width: 75%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#009933; text-align: center;}
+		 #percentage-react span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-html {width: 82%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#339966; text-align: center;}
+		 #percentage-html span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-css {width: 65%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#2db300; text-align: center;}
+		 #percentage-css span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+		 #percentage-mongo {width: 72%; height: inherit; border: none; border-radius: 20px 2px 2px 20px; background-color:#ff9900; text-align: center;}
+		 #percentage-mongo span{color: white; font-size: 1.2rem; position: relative; top: 5px; font-family: sans-serif;}
+
+		 /*class-portfolio*/
+
+		 .portfolio {width: 100%; height: auto; display: flex; flex-wrap: wrap;}
+		 .portfolio h1 {width: 65%; height: 150px; margin: auto; text-align: center;}
+		 .portfolio #box {width: 65%; height: auto; display: flex; flex-wrap: wrap; margin: auto; justify-content: space-between;}
+		 #image-store img {width: 300px; height: 300px;}
+
